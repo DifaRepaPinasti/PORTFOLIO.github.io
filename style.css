@@ -700,20 +700,20 @@ span {
 
     .home .profession-container {
         left: 0;
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        height: 100%;
     }
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 60%;
+        top: 30%;
         left: 0;
         border-radius: 0;
         width: 100%;
     }
 
     .home .profession-box .profession {
-        padding: o 13px;
+        padding: o 10px;
         left: auto;
         transform-origin: 0;
     }
@@ -741,8 +741,8 @@ span {
 
     .home .profession-box .circle {
         position: fixed;
-        width: 670px;
-        height: 670px;
+        width: 570px;
+        height: 570px;
         z-index: -1;
     }
 
