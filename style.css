@@ -706,14 +706,14 @@ span {
 
     .home .profession-container .profession-box {
         position: fixed;
-        top: 30%;
+        top: 60%;
         left: 0;
         border-radius: 0;
         width: 100%;
     }
 
     .home .profession-box .profession {
-        padding: o 10px;
+        padding: o 13px;
         left: auto;
         transform-origin: 0;
     }
