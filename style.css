@@ -192,8 +192,8 @@ section {
     top: 50%;
     right: 0;
     transform: translateY(-50%);
-    width: 968px;
-    height: 968px;
+    width: 768px;
+    height: 768px;
     overflow: hidden;
     pointer-events: none;
 
@@ -203,8 +203,8 @@ section {
     position: absolute;
     top: 0;
     right: 0;
-    width: 900px;
-    height: 900px;
+    width: 768px;
+    height: 768px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -238,7 +238,7 @@ section {
     flex-direction: column;
     color: var(--main-color);
     transform: rotate(calc(360deg / 4 * var(--i)));
-    transform-origin: 380px;
+    transform-origin: 384px;
     background: var(--white-color);
     padding: 13px 0;
 }
@@ -258,9 +258,9 @@ section {
 }
 
 .home .profession h3 {
-    font-size: 2.6rem;
+    font-size: 3.2rem;
     line-height: 1;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .home .profession-box .circle {
@@ -276,18 +276,18 @@ section {
     right: 0;
     width: 0;
     right: 0;
-    border-top: 405px solid var(--main-color);
-    border-right: 405px solid var(--main-color);
-    border-bottom: 450px solid var(--main-color);
-    border-left: 400px solid transparent;
+    border-top: 384px solid var(--main-color);
+    border-right: 384px solid var(--main-color);
+    border-bottom: 384px solid var(--main-color);
+    border-left: 384px solid transparent;
 }
 
 
 .home-img img {
     position: absolute;
-    bottom: 15%;
+    bottom: 5%;
     right: -2%;
-    width: 35%;
+    width: 30%;
     pointer-events: none;
 }
 
@@ -550,12 +550,12 @@ span {
     }
 
     .home .profession-container {
-        height: 85.8rem;
+        height: 50.8rem;
     }
 
     .home .profession-container .profession-box {
         right: -12rem;
-        height: 85.8rem;
+        height: 60.8rem;
     }
 
     .home .profession-container .overlay {
@@ -567,10 +567,10 @@ span {
 
 @media (max-width: 1024px) {
     .header {
-        padding: 2rem 3%;
+        padding: 2rem 10%;
     }
     section {
-        padding: 10rem 3% 2rem;
+        padding: 10rem 15% 2rem;
     }
 
     .home .profession-container .profession-box {
@@ -681,7 +681,7 @@ span {
     }
 
     .home {
-        padding: 0 3% 23rem;
+        padding: 0 3% 26rem;
         justify-content: center;
         text-align: center;
     }
@@ -710,10 +710,11 @@ span {
         left: 0;
         border-radius: 0;
         width: 100%;
+        height: 100%;
     }
 
     .home .profession-box .profession {
-        padding: o 13px;
+        padding: 0 13px;
         left: auto;
         transform-origin: 0;
     }
@@ -741,18 +742,18 @@ span {
 
     .home .profession-box .circle {
         position: fixed;
-        width: 670px;
-        height: 670px;
+        width: 570px;
+        height: 570px;
         z-index: -1;
     }
 
     .home .profession-container .overlay {
         position: fixed;
         top: 70rem;
-        left: 50%;
+        left: 30%;
         right: 0;
-        transform: rotate(90deg) translate(-50%, -50%) scaleY(3);
-        border-width: 29.9rem;
+        transform: rotate(90deg) translate(-50%, 5%) scaleY(3);
+        border-width: 11rem;
     }
 
     .about {
@@ -816,7 +817,7 @@ span {
     }
 
     .home .profession-box .profession:nth-child(1) {
-        transform: rotate(-90deg) translate(-110px, -220px);
+        transform: rotate(-90deg) translate(-102px, -240px);
     }
 
     .home .profession-box .profession:nth-child(2) {
@@ -824,11 +825,11 @@ span {
     }
 
     .home .profession-box .profession:nth-child(3) {
-        transform: rotate(90deg) translate(-105px, -440px);
+        transform: rotate(90deg) translate(-88px, -440px);
     }
 
     .home .profession-box .profession:nth-child(4) {
-        transform: rotate(180deg) translate(-210px, -335px);
+        transform: rotate(180deg) translate(-148px, -335px);
     }
 
     .contact form .input-box input {
@@ -837,6 +838,13 @@ span {
 }
 
 @media (max-width: 365px) {
+    .home .profession-container .profession-box {
+        right: 20rem;
+    }
+
+    .home .profession-container .overlay {
+        right: 20rem;
+    }
     .about-img img {
         width: 90vw;
     }
@@ -847,7 +855,7 @@ span {
 
     .footer p {
         text-align: center;
-        margin-top: 2rem;
+        margin-top: 5rem;
 
     }
 }
